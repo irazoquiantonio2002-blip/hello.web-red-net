@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 120" role="img" aria-label="Red Net">
+  <title>Red Net</title>
+  <defs>
+    <linearGradient id="rn-red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff4a52"/>
+      <stop offset="1" stop-color="#c1121a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============ Letra R ============ -->
+  <g fill="#ffffff">
+    <!-- asta vertical -->
+    <rect x="14" y="16" width="17" height="96" rx="1.5"/>
+  </g>
+  <!-- panza de la R -->
+  <path d="M31 18 A24 24 0 0 1 31 66" fill="none" stroke="#ffffff" stroke-width="17"/>
+  <!-- pierna diagonal -->
+  <path d="M32 60 L59 112" fill="none" stroke="#ffffff" stroke-width="17" stroke-linecap="round"/>
+  <!-- acento de marca sobre la R -->
+  <path d="M18 92 L44 44" stroke="url(#rn-red)" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <!-- ============ Torre "A" de transmisión ============ -->
+  <path fill="#ffffff" fill-rule="evenodd"
+        d="M96 40 L120 114 H72 Z M96 64 L107 106 H85 Z"/>
+  <!-- travesaño -->
+  <rect x="83" y="92" width="26" height="7" fill="#ffffff"/>
+  <!-- arriostramiento -->
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.85">
+    <path d="M80 110 L112 96"/>
+    <path d="M112 110 L80 96"/>
+  </g>
+
+  <!-- ============ Señal WiFi ============ -->
+  <g fill="none" stroke="url(#rn-red)" stroke-width="6" stroke-linecap="round">
+    <path d="M78 30 A22 22 0 0 1 114 30"/>
+    <path d="M84 22 A12 12 0 0 1 108 22"/>
+  </g>
+  <circle cx="96" cy="38" r="3.6" fill="url(#rn-red)"/>
+</svg>
